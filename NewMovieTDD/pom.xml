@@ -83,10 +83,8 @@
 					<suiteXmlFiles>
 						
 
-						<!-- regression -->
-						<!-- <suiteXmlFile>testRunner/examples/regression/testng.xml</suiteXmlFile> -->
 						<!-- smoke -->
-						<!-- <suiteXmlFile>testRunner/examples/smoke/search.xml</suiteXmlFile> -->
+						<suiteXmlFile>testRunner/ui/smoke/testng.xml</suiteXmlFile>
 				
 
 					</suiteXmlFiles>

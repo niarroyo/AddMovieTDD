@@ -58,6 +58,7 @@ public class ElementActions {
 		 }
 	 }
 	 
+	 
 	 public void typeIn(WebElement ele ,String text) {
 		  try {
 		   ele.clear();
@@ -123,5 +124,6 @@ public class ElementActions {
 			 Log4jManager.error("failed to select element using " + bylocator.toString());
 		 }
 	 }
+
 
 }
