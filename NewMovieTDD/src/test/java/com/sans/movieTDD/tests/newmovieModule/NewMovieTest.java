@@ -27,20 +27,21 @@ public class NewMovieTest extends UITestBase {
 
 	}
 	
-	//@Test
-	public void invalidTestCase03() {
-		logger = extent.createTest("invalidTestCase03");
+	@Test
+	public void invalidTestCase04() {
+		logger = extent.createTest("invalidTestCase04");
 		NewMovieRecordPage m3 = new NewMovieRecordPage();
 		m3.goToAddaNewMovie();
-		m3.invalidData("12345", "01012015", "0");
+		m3.invalidData("", "", "6");
+		
 	}
 	
 	//@Test
-	public void invalidTestCase04() {
-		logger = extent.createTest("invalidTestCase04");
+	public void invalidTestCase03() {
+		logger = extent.createTest("invalidTestCase03");
 		NewMovieRecordPage m4 = new NewMovieRecordPage();
 		m4.goToAddaNewMovie();
-		m4.invalidData("", "", "5");
-		
+		m4.invalidData("12345", "01012015", "0");
 	}
+	
 }
